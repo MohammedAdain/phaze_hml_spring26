@@ -61,6 +61,8 @@ def extract_op_graph_ilp(per_l_op_graph, cc, latency_estimates):
                     idx = vc_configs.index(create_core_config(cc, "VC"))
                     idx_s = vc_configs.index(create_core_config(cc_s, "VC"))
                     e = latency_estimates["VC"][str(node.node_id)][idx]
+                    # print(latency_estimates["VC"])
+                    # print(node.node_id, idx_s)
                     e_s = latency_estimates["VC"][str(node.node_id)][idx_s]
 
             estimation_time = estimation_time + e[mode]["estimation_time"]

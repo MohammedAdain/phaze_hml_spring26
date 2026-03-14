@@ -1,0 +1,1200 @@
+Running for hbm:  [80]  mbs:  [1, 2, 4, 8]  max tmp:  1
+mbs:  1  HBM size: 80 activation_recomputation: False
+Extracting graph for model:  llama2  ...
+Object file not available to load. Extracting the model again. /storage/ice1/8/4/madain3/hml/phaze_hml_spring26/GraphExtractor/utils/../out/Llama/llama2_mbs_1_sl_4096.pickle
+Loaded model from file
+'[93mModel load from file failed due to check 1. Exporting again.[0m
+Loaded phaze graph successfully from file for model llama2
+[96mExtending number of layers (only) in the graph to 32 for model llama2 [0m
+Extracted graph for model:  llama2  ...
+Initialized accelerator directories and files for area and energy estimation!
+Estimating for layer_id 0
+Linear estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=2.731383800506592) estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=2.7279105186462402)
+Linear estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=3.2985498905181885) estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=3.289196014404297)
+Linear estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.2002148628234863) estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.2009940147399902)
+Linear estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=2.00451922416687) estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=1.9986717700958252)
+Linear estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=3.0472426414489746) estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=4.033095836639404)
+Linear estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=3.588442325592041) estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=3.579998254776001)
+Linear estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=4.097954511642456) estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=4.097741603851318)
+Linear estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=2.028982639312744) estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=2.022292137145996)
+Linear estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=2.0584888458251953) estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=2.0524744987487793)
+Linear estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=2.7599239349365234) estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=2.753373384475708)
+Linear estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=3.2441625595092773) estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=3.2287752628326416)
+Linear estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.1374199390411377) estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.1395559310913086)
+Linear estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=2.0676350593566895) estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=2.0605077743530273)
+Linear estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=2.0849769115448) estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=2.079294204711914)
+Linear estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=3.583752393722534) estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=3.575784683227539)
+Linear estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=4.204914093017578) estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=4.197572708129883)
+Linear estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=2.0349433422088623) estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=2.0283150672912598)
+Linear estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=2.0373282432556152) estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=2.029745578765869)
+Linear estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=2.7643492221832275) estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=2.7560911178588867)
+Linear estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=3.215104579925537) estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=3.2118144035339355)
+Linear estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.1499595642089844) estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.1672921180725098)
+Linear estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=2.0166285037994385) estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=2.0101125240325928)
+Linear estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=2.0963284969329834) estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=2.096071720123291)
+Linear estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=3.521871566772461) estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=3.515465497970581)
+Linear estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=4.132231712341309) estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=4.1198811531066895)
+Linear estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=1.9562108516693115) estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=1.9497170448303223)
+Linear estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=1.9661612510681152) estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=1.9580914974212646)
+fused ~~ Linear estimate(latency=0.005742202857142857, energy=0.2603946110987797, utilization=-1, estimation_time=3.7577266693115234) estimate(latency=0.005742202857142857, energy=0.2603946110987797, utilization=-1, estimation_time=4.74142861366272)
+fused ~~ Linear estimate(latency=0.005742202857142857, energy=0.24993070885843768, utilization=-1, estimation_time=3.1729397773742676) estimate(latency=0.005742202857142857, energy=0.24993070885843768, utilization=-1, estimation_time=3.182511806488037)
+fused ~~ Linear estimate(latency=0.005742202857142857, energy=0.26888897823925867, utilization=-1, estimation_time=3.500861644744873) estimate(latency=0.005742202857142857, energy=0.26888897823925867, utilization=-1, estimation_time=3.4995548725128174)
+fused ~~ Linear estimate(latency=0.0027462714285714286, energy=0.26691493119079224, utilization=-1, estimation_time=2.0799520015716553) estimate(latency=0.0027462714285714286, energy=0.26691493119079224, utilization=-1, estimation_time=2.0735220909118652)
+fused ~~ Linear estimate(latency=0.0027462714285714286, energy=0.2709582555476132, utilization=-1, estimation_time=2.1739256381988525) estimate(latency=0.0027462714285714286, energy=0.2709582555476132, utilization=-1, estimation_time=2.166977643966675)
+fused ~~ Linear estimate(latency=0.005742202857142857, energy=0.2708585133391217, utilization=-1, estimation_time=3.7204737663269043) estimate(latency=0.005742202857142857, energy=0.2708585133391217, utilization=-1, estimation_time=3.717379570007324)
+fused ~~ Linear estimate(latency=0.005742202857142857, energy=0.3219267566189937, utilization=-1, estimation_time=4.217141628265381) estimate(latency=0.005742202857142857, energy=0.3219267566189937, utilization=-1, estimation_time=4.216091156005859)
+fused ~~ Linear estimate(latency=0.0027462714285714286, energy=0.2775224868667392, utilization=-1, estimation_time=2.0772573947906494) estimate(latency=0.0027462714285714286, energy=0.2775224868667392, utilization=-1, estimation_time=2.071378231048584)
+fused ~~ Linear estimate(latency=0.0027462714285714286, energy=0.3005452983468032, utilization=-1, estimation_time=1.9911446571350098) estimate(latency=0.0027462714285714286, energy=0.3005452983468032, utilization=-1, estimation_time=1.9856042861938477)
+Mm estimate(latency=0.016227961904761903, energy=0.6620615423827642, utilization=-1, estimation_time=3.421616554260254) estimate(latency=0.007989150476190476, energy=0.5726274511291023, utilization=-1, estimation_time=3.3408923149108887)
+Mm estimate(latency=0.016227961904761903, energy=0.6620615423827642, utilization=-1, estimation_time=3.4916625022888184) estimate(latency=0.007989150476190476, energy=0.5700114755690169, utilization=-1, estimation_time=3.3840510845184326)
+Mm estimate(latency=0.016227961904761903, energy=0.8355626531660759, utilization=-1, estimation_time=3.145901679992676) estimate(latency=0.007989150476190476, energy=0.6600101176813814, utilization=-1, estimation_time=3.1705410480499268)
+Mm estimate(latency=0.011983725714285715, energy=0.8398166207286477, utilization=-1, estimation_time=3.0428569316864014) estimate(latency=0.007989150476190476, energy=0.6721455653587517, utilization=-1, estimation_time=3.0338451862335205)
+Mm estimate(latency=0.011983725714285715, energy=0.9755245630896211, utilization=-1, estimation_time=3.0861356258392334) estimate(latency=0.007989150476190476, energy=0.7429710390031812, utilization=-1, estimation_time=3.077521800994873)
+Mm estimate(latency=0.016227961904761903, energy=0.6672934935029351, utilization=-1, estimation_time=3.4315404891967773) estimate(latency=0.007989150476190476, energy=0.5778594022492735, utilization=-1, estimation_time=3.3473989963531494)
+Mm estimate(latency=0.016227961904761903, energy=0.8459896107856035, utilization=-1, estimation_time=3.4691948890686035) estimate(latency=0.007989150476190476, energy=0.6753160218500137, utilization=-1, estimation_time=3.3874666690826416)
+Mm estimate(latency=0.011983725714285715, energy=0.8397043855827927, utilization=-1, estimation_time=3.284437894821167) estimate(latency=0.007989150476190476, energy=0.6720333302128967, utilization=-1, estimation_time=3.2765939235687256)
+Mm estimate(latency=0.011983725714285715, energy=0.9753562103708386, utilization=-1, estimation_time=3.1059956550598145) estimate(latency=0.007989150476190476, energy=0.7428026862843987, utilization=-1, estimation_time=3.0939016342163086)
+fused ~~ Mm estimate(latency=0.00798916, energy=0.5726274511291023, utilization=-1, estimation_time=3.4884777069091797) estimate(latency=0.01622797142857143, energy=0.6620615423827642, utilization=-1, estimation_time=3.6568076610565186)
+fused ~~ Mm estimate(latency=0.00798916, energy=0.5700114755690169, utilization=-1, estimation_time=3.3139655590057373) estimate(latency=0.01622797142857143, energy=0.6620615423827642, utilization=-1, estimation_time=3.409308433532715)
+fused ~~ Mm estimate(latency=0.00798916, energy=0.6600101176813814, utilization=-1, estimation_time=3.2445085048675537) estimate(latency=0.01622797142857143, energy=0.8355626531660759, utilization=-1, estimation_time=3.205847978591919)
+fused ~~ Mm estimate(latency=0.00798916, energy=0.6721455653587517, utilization=-1, estimation_time=3.036167621612549) estimate(latency=0.011983735238095239, energy=0.8398166207286477, utilization=-1, estimation_time=3.0312001705169678)
+fused ~~ Mm estimate(latency=0.00798916, energy=0.7429710390031812, utilization=-1, estimation_time=2.978184938430786) estimate(latency=0.011983735238095239, energy=0.9755245630896211, utilization=-1, estimation_time=2.972888708114624)
+fused ~~ Mm estimate(latency=0.00798916, energy=0.5778594022492735, utilization=-1, estimation_time=3.2122037410736084) estimate(latency=0.01622797142857143, energy=0.6672934935029351, utilization=-1, estimation_time=3.2817740440368652)
+fused ~~ Mm estimate(latency=0.00798916, energy=0.6753160218500137, utilization=-1, estimation_time=3.204901695251465) estimate(latency=0.01622797142857143, energy=0.8459896107856035, utilization=-1, estimation_time=3.2742371559143066)
+fused ~~ Mm estimate(latency=0.00798916, energy=0.6720333302128967, utilization=-1, estimation_time=3.0174834728240967) estimate(latency=0.011983735238095239, energy=0.8397043855827927, utilization=-1, estimation_time=3.0126349925994873)
+fused ~~ Mm estimate(latency=0.00798916, energy=0.7428026862843987, utilization=-1, estimation_time=3.0560460090637207) estimate(latency=0.011983735238095239, energy=0.9753562103708386, utilization=-1, estimation_time=3.0515549182891846)
+fused ~~ Linear estimate(latency=0.023483744761904762, energy=0.7379594987256218, utilization=-1, estimation_time=3.5582122802734375) estimate(latency=0.023905038095238095, energy=0.7188655166104535, utilization=-1, estimation_time=3.4492437839508057)
+fused ~~ Linear estimate(latency=0.023483744761904762, energy=0.7238986300901622, utilization=-1, estimation_time=3.4278042316436768) estimate(latency=0.023905038095238095, energy=0.7048046479749939, utilization=-1, estimation_time=3.422775983810425)
+fused ~~ Linear estimate(latency=0.023483744761904762, energy=0.7119368360586446, utilization=-1, estimation_time=3.495030403137207) estimate(latency=0.023905038095238095, energy=0.7070425784228249, utilization=-1, estimation_time=3.4869611263275146)
+fused ~~ Linear estimate(latency=0.021470853333333335, energy=0.7524019722023731, utilization=-1, estimation_time=3.2373580932617188) estimate(latency=0.0171954, energy=0.7011704631470326, utilization=-1, estimation_time=3.2401373386383057)
+fused ~~ Linear estimate(latency=0.021470853333333335, energy=0.7333216748147179, utilization=-1, estimation_time=3.183276891708374) estimate(latency=0.0171954, energy=0.708504988776661, utilization=-1, estimation_time=3.189986228942871)
+fused ~~ Linear estimate(latency=0.023483744761904762, energy=0.766081235996541, utilization=-1, estimation_time=3.3170533180236816) estimate(latency=0.023905038095238095, energy=0.7751089911522918, utilization=-1, estimation_time=3.1181037425994873)
+fused ~~ Linear estimate(latency=0.020799889523809525, energy=0.9632111784354775, utilization=-1, estimation_time=3.8029801845550537) estimate(latency=0.02122118285714286, energy=0.8417366338780529, utilization=-1, estimation_time=3.6964638233184814)
+fused ~~ Linear estimate(latency=0.021470853333333335, energy=0.8664331957188035, utilization=-1, estimation_time=3.2064926624298096) estimate(latency=0.0171954, energy=0.7581860749052477, utilization=-1, estimation_time=3.2027342319488525)
+fused ~~ Linear estimate(latency=0.021470853333333335, energy=0.9718672073831873, utilization=-1, estimation_time=3.0039873123168945) estimate(latency=0.0171954, energy=0.8277777550608958, utilization=-1, estimation_time=3.0015509128570557)
+Linear estimate(latency=0.023483733333333333, energy=0.7379594987256218, utilization=-1, estimation_time=3.2758140563964844) estimate(latency=0.02390503619047619, energy=0.7188655166104535, utilization=-1, estimation_time=3.168335437774658)
+Linear estimate(latency=0.023483733333333333, energy=0.7238986300901622, utilization=-1, estimation_time=3.1890523433685303) estimate(latency=0.02390503619047619, energy=0.7048046479749939, utilization=-1, estimation_time=3.1751620769500732)
+Linear estimate(latency=0.023483733333333333, energy=0.7119368360586446, utilization=-1, estimation_time=3.236215353012085) estimate(latency=0.02390503619047619, energy=0.7070425784228249, utilization=-1, estimation_time=3.2255492210388184)
+Linear estimate(latency=0.021470841904761905, energy=0.7524019722023731, utilization=-1, estimation_time=3.067085027694702) estimate(latency=0.017195398095238096, energy=0.7011704631470326, utilization=-1, estimation_time=3.0688862800598145)
+Linear estimate(latency=0.021470841904761905, energy=0.7333216748147179, utilization=-1, estimation_time=3.030951976776123) estimate(latency=0.017195398095238096, energy=0.708504988776661, utilization=-1, estimation_time=3.0397982597351074)
+Linear estimate(latency=0.023483733333333333, energy=0.766081235996541, utilization=-1, estimation_time=3.436760663986206) estimate(latency=0.02390503619047619, energy=0.7751089911522918, utilization=-1, estimation_time=3.2382113933563232)
+Linear estimate(latency=0.020799878095238096, energy=0.9632111784354775, utilization=-1, estimation_time=3.6267693042755127) estimate(latency=0.02122118095238095, energy=0.8417366338780529, utilization=-1, estimation_time=3.516197443008423)
+Linear estimate(latency=0.021470841904761905, energy=0.8664331957188035, utilization=-1, estimation_time=2.837806463241577) estimate(latency=0.017195398095238096, energy=0.7581860749052477, utilization=-1, estimation_time=2.832534074783325)
+Linear estimate(latency=0.021470841904761905, energy=0.9718672073831873, utilization=-1, estimation_time=2.8724308013916016) estimate(latency=0.017195398095238096, energy=0.8277777550608958, utilization=-1, estimation_time=2.866978406906128)
+Linear estimate(latency=0.02390503619047619, energy=0.7188655166104535, utilization=-1, estimation_time=2.65793776512146) estimate(latency=0.023483733333333333, energy=0.7379594987256218, utilization=-1, estimation_time=2.7500717639923096)
+Linear estimate(latency=0.02390503619047619, energy=0.7048046479749939, utilization=-1, estimation_time=2.5541183948516846) estimate(latency=0.023483733333333333, energy=0.7238986300901622, utilization=-1, estimation_time=2.5478434562683105)
+Linear estimate(latency=0.02390503619047619, energy=0.7070425784228249, utilization=-1, estimation_time=2.4061942100524902) estimate(latency=0.023483733333333333, energy=0.7119368360586446, utilization=-1, estimation_time=2.402824640274048)
+Linear estimate(latency=0.017195398095238096, energy=0.7011704631470326, utilization=-1, estimation_time=2.2148492336273193) estimate(latency=0.021470841904761905, energy=0.7524019722023731, utilization=-1, estimation_time=2.1987571716308594)
+Linear estimate(latency=0.017195398095238096, energy=0.708504988776661, utilization=-1, estimation_time=2.428408622741699) estimate(latency=0.021470841904761905, energy=0.7333216748147179, utilization=-1, estimation_time=2.4065864086151123)
+Linear estimate(latency=0.02390503619047619, energy=0.7751089911522918, utilization=-1, estimation_time=2.596130132675171) estimate(latency=0.023483733333333333, energy=0.766081235996541, utilization=-1, estimation_time=2.7823235988616943)
+Linear estimate(latency=0.02122118095238095, energy=0.8417366338780529, utilization=-1, estimation_time=3.0990638732910156) estimate(latency=0.020799878095238096, energy=0.9632111784354775, utilization=-1, estimation_time=3.196732521057129)
+Linear estimate(latency=0.017195398095238096, energy=0.7581860749052477, utilization=-1, estimation_time=2.5078978538513184) estimate(latency=0.021470841904761905, energy=0.8664331957188035, utilization=-1, estimation_time=2.4980008602142334)
+Linear estimate(latency=0.017195398095238096, energy=0.8277777550608958, utilization=-1, estimation_time=2.3875718116760254) estimate(latency=0.021470841904761905, energy=0.9718672073831873, utilization=-1, estimation_time=2.379162311553955)
+Linear estimate(latency=0.06826666666666667, energy=2.0789014212704666, utilization=-1, estimation_time=4.168187379837036) estimate(latency=0.0699674819047619, energy=2.0818877164158978, utilization=-1, estimation_time=4.159281253814697)
+Linear estimate(latency=0.06826666666666667, energy=1.9971521850177945, utilization=-1, estimation_time=3.899139642715454) estimate(latency=0.0699674819047619, energy=2.030410071761486, utilization=-1, estimation_time=3.89186692237854)
+Linear estimate(latency=0.06826666666666667, energy=2.0546937641921086, utilization=-1, estimation_time=3.8598265647888184) estimate(latency=0.0699674819047619, energy=2.0722583459295394, utilization=-1, estimation_time=3.8529229164123535)
+Linear estimate(latency=0.06241523809523809, energy=2.1727606224177727, utilization=-1, estimation_time=3.880324363708496) estimate(latency=0.05046272, energy=2.056020572837511, utilization=-1, estimation_time=3.799065113067627)
+Linear estimate(latency=0.06241523809523809, energy=2.086301228667175, utilization=-1, estimation_time=4.017436265945435) estimate(latency=0.05046272, energy=2.0291246135915313, utilization=-1, estimation_time=3.9418094158172607)
+Linear estimate(latency=0.06826666666666667, energy=2.205610927141781, utilization=-1, estimation_time=4.118776559829712) estimate(latency=0.0699674819047619, energy=2.2453861889212416, utilization=-1, estimation_time=4.02408504486084)
+Linear estimate(latency=0.0604647619047619, energy=2.7851424338922044, utilization=-1, estimation_time=4.4738874435424805) estimate(latency=0.06216557714285714, energy=2.463809038987297, utilization=-1, estimation_time=4.467730283737183)
+Linear estimate(latency=0.06241523809523809, energy=2.504246737291117, utilization=-1, estimation_time=3.9679009914398193) estimate(latency=0.05046272, energy=2.221763630274183, utilization=-1, estimation_time=3.8777222633361816)
+Linear estimate(latency=0.06241523809523809, energy=2.779747544273191, utilization=-1, estimation_time=4.110772371292114) estimate(latency=0.05046272, energy=2.3758477713945396, utilization=-1, estimation_time=4.022451400756836)
+Estimating for layer_id -1
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.00018315582830310398, utilization=-1, estimation_time=1.9226715564727783) estimate(latency=4.022857142857143e-06, energy=0.00022778292655909995, utilization=-1, estimation_time=2.0185375213623047)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.000183392803382528, utilization=-1, estimation_time=1.8065669536590576) estimate(latency=4.144761904761905e-06, energy=0.00022801990163852395, utilization=-1, estimation_time=1.7983474731445312)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.000227196573893376, utilization=-1, estimation_time=1.7789371013641357) estimate(latency=4.388571428571429e-06, energy=0.00031381032958937194, utilization=-1, estimation_time=1.7709729671478271)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.00022994273858790401, utilization=-1, estimation_time=1.7752926349639893) estimate(latency=4.022857142857143e-06, energy=0.00031980873119725144, utilization=-1, estimation_time=1.7672529220581055)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.000264123768182528, utilization=-1, estimation_time=1.732424020767212) estimate(latency=4.144761904761905e-06, energy=0.0003866846339118755, utilization=-1, estimation_time=1.7224948406219482)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.000183037340763392, utilization=-1, estimation_time=1.7975289821624756) estimate(latency=3.9619047619047616e-06, energy=0.00022766443901938794, utilization=-1, estimation_time=1.7895033359527588)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.00022636716111539202, utilization=-1, estimation_time=1.859086275100708) estimate(latency=3.9619047619047616e-06, energy=0.0003129809168113879, utilization=-1, estimation_time=1.852219820022583)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.000229722618638592, utilization=-1, estimation_time=1.8610639572143555) estimate(latency=3.9619047619047616e-06, energy=0.00031958861124793946, utilization=-1, estimation_time=1.8530194759368896)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.00026346340833459196, utilization=-1, estimation_time=1.8111639022827148) estimate(latency=3.9619047619047616e-06, energy=0.0003860242740639395, utilization=-1, estimation_time=1.805074691772461)
+Populated estimates for model:  llama2  ...
+Extracted graph and populated for all the models ...
+running solver for model: llama2 with accelerator config: acc_config(num_tc=4, num_vc=2, width=256, depth=256, width_vc=256, GLB_Buffer=268435456, area=555555059.90432)
+Set parameter LicenseID to value 2441885
+Set parameter GURO_PAR_SPECIAL
+Set parameter TokenServer to value "license-coda.pace.gatech.edu"
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=268435456, area=401015327.679264)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=8, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=134217728, area=278826676.31216)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=2, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=134217728, area=278518529.95216)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=134217728, area=227074327.679264)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=128, depth=128, width_vc=128, GLB_Buffer=134217728, area=188427588.951408)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=4, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=98558244.03926401)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=2, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=72760077.902816)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=59755488.951408)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+All architectures explored
+[91mNo config found in the whole search space[0m
+Best phaze config for mbs:  1  HBM:  80  Activation Recomp:  False 
+ Config  (None, None) 
+ Models ['llama2'] 
+ total solving time, ilptime and dptime 1109.4356446266174 513.9567925930023 20.75873327255249 
+ estimation time 1439.8073585033417
+mbs:  1  HBM size: 80 activation_recomputation: True
+Extracting graph for model:  llama2  ...
+Object file not available to load. Extracting the model again. /storage/ice1/8/4/madain3/hml/phaze_hml_spring26/GraphExtractor/utils/../out/Llama/llama2_mbs_1_sl_4096.pickle
+Loaded model from file
+'[93mModel load from file failed due to check 1. Exporting again.[0m
+Loaded phaze graph successfully from file for model llama2
+[96mExtending number of layers (only) in the graph to 32 for model llama2 [0m
+Extracted graph for model:  llama2  ...
+Initialized accelerator directories and files for area and energy estimation!
+Populated estimates for model:  llama2  ...
+Extracted graph and populated for all the models ...
+running solver for model: llama2 with accelerator config: acc_config(num_tc=4, num_vc=2, width=256, depth=256, width_vc=256, GLB_Buffer=268435456, area=555555059.90432)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=268435456, area=401015327.679264)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=8, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=134217728, area=278826676.31216)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=2, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=134217728, area=278518529.95216)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=134217728, area=227074327.679264)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=128, depth=128, width_vc=128, GLB_Buffer=134217728, area=188427588.951408)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=4, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=98558244.03926401)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=2, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=72760077.902816)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=59755488.951408)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+All architectures explored
+Best phaze config for mbs:  1  HBM:  80  Activation Recomp:  True 
+ Config  (acc_config(num_tc=4, num_vc=2, width=256, depth=256, width_vc=256, GLB_Buffer=268435456, area=555555059.90432), {'llama2': out_per_cc_per_model(dist_strategy=dist_config(ppdepth=6, tmpcwidth=1, dpwidth=164), throughput=63.040169974243675, fixed_strategy_throughput=47.632151220329476, utilization={'TC': {'peak': 0.75, 'avg': 0.33653018970731874}, 'VC': {'peak': 0.75, 'avg': 0.29487116506733346}})}) 
+ Models ['llama2'] 
+ total solving time, ilptime and dptime 534.6899807453156 510.9178636074066 22.914321899414062 
+ estimation time 1439.8073585033417
+mbs:  2  HBM size: 80 activation_recomputation: False
+Extracting graph for model:  llama2  ...
+Object file not available to load. Extracting the model again. /storage/ice1/8/4/madain3/hml/phaze_hml_spring26/GraphExtractor/utils/../out/Llama/llama2_mbs_2_sl_4096.pickle
+Loaded model from file
+'[93mModel load from file failed due to check 1. Exporting again.[0m
+Loaded phaze graph successfully from file for model llama2
+[96mExtending number of layers (only) in the graph to 32 for model llama2 [0m
+Extracted graph for model:  llama2  ...
+Initialized accelerator directories and files for area and energy estimation!
+Estimating for layer_id 0
+Linear estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=3.004244804382324) estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=2.9929122924804688)
+Linear estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=3.470027208328247) estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=3.467623472213745)
+Linear estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.451749801635742) estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.4514360427856445)
+Linear estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=2.2270445823669434) estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=2.2248270511627197)
+Linear estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=2.2497658729553223) estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=2.248211145401001)
+Linear estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=4.085478067398071) estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=4.081440687179565)
+Linear estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=4.712957382202148) estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=4.699292182922363)
+Linear estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=2.164621353149414) estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=2.161008834838867)
+Linear estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=2.18243145942688) estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=2.177443265914917)
+Linear estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=3.1704626083374023) estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=3.164397716522217)
+Linear estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=3.5065646171569824) estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=3.5002994537353516)
+Linear estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.5159382820129395) estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.5148696899414062)
+Linear estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=2.2648801803588867) estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=2.2528417110443115)
+Linear estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=2.3172411918640137) estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=2.311263084411621)
+Linear estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=4.087885141372681) estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=4.086186647415161)
+Linear estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=4.857663631439209) estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=4.844727516174316)
+Linear estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=2.278311252593994) estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=2.273242235183716)
+Linear estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=2.2005398273468018) estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=2.195457696914673)
+Linear estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=3.041611671447754) estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=3.0373215675354004)
+Linear estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=3.862173080444336) estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=3.7823081016540527)
+Linear estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.5968410968780518) estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.579941987991333)
+Linear estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=2.3539936542510986) estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=2.3489816188812256)
+Linear estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=2.389871597290039) estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=2.3720510005950928)
+Linear estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=4.192521810531616) estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=4.184056758880615)
+Linear estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=5.0873026847839355) estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=5.0823516845703125)
+Linear estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=2.3136606216430664) estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=2.3086307048797607)
+Linear estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=2.227062225341797) estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=2.220184326171875)
+fused ~~ Linear estimate(latency=0.005742202857142857, energy=0.2603946110987797, utilization=-1, estimation_time=3.1868937015533447) estimate(latency=0.005742202857142857, energy=0.2603946110987797, utilization=-1, estimation_time=3.18062162399292)
+fused ~~ Linear estimate(latency=0.005742202857142857, energy=0.24993070885843768, utilization=-1, estimation_time=3.5861728191375732) estimate(latency=0.005742202857142857, energy=0.24993070885843768, utilization=-1, estimation_time=3.5824646949768066)
+fused ~~ Linear estimate(latency=0.005742202857142857, energy=0.26888897823925867, utilization=-1, estimation_time=3.7976114749908447) estimate(latency=0.005742202857142857, energy=0.26888897823925867, utilization=-1, estimation_time=3.7803640365600586)
+fused ~~ Linear estimate(latency=0.0027462714285714286, energy=0.26691493119079224, utilization=-1, estimation_time=2.3019206523895264) estimate(latency=0.0027462714285714286, energy=0.26691493119079224, utilization=-1, estimation_time=2.2907826900482178)
+fused ~~ Linear estimate(latency=0.0027462714285714286, energy=0.2709582555476132, utilization=-1, estimation_time=2.390446186065674) estimate(latency=0.0027462714285714286, energy=0.2709582555476132, utilization=-1, estimation_time=2.380269765853882)
+fused ~~ Linear estimate(latency=0.005742202857142857, energy=0.2708585133391217, utilization=-1, estimation_time=4.2012104988098145) estimate(latency=0.005742202857142857, energy=0.2708585133391217, utilization=-1, estimation_time=4.193932056427002)
+fused ~~ Linear estimate(latency=0.005742202857142857, energy=0.3219267566189937, utilization=-1, estimation_time=4.919615983963013) estimate(latency=0.005742202857142857, energy=0.3219267566189937, utilization=-1, estimation_time=4.93006706237793)
+fused ~~ Linear estimate(latency=0.0027462714285714286, energy=0.2775224868667392, utilization=-1, estimation_time=2.223081588745117) estimate(latency=0.0027462714285714286, energy=0.2775224868667392, utilization=-1, estimation_time=2.2159714698791504)
+fused ~~ Linear estimate(latency=0.0027462714285714286, energy=0.3005452983468032, utilization=-1, estimation_time=2.221341848373413) estimate(latency=0.0027462714285714286, energy=0.3005452983468032, utilization=-1, estimation_time=2.215003252029419)
+Mm estimate(latency=0.03245592380952381, energy=1.3237729000732754, utilization=-1, estimation_time=5.122714996337891) estimate(latency=0.015978300952380953, energy=1.1449047175659521, utilization=-1, estimation_time=4.960331916809082)
+Mm estimate(latency=0.03245592380952381, energy=1.3237729000732754, utilization=-1, estimation_time=5.137080907821655) estimate(latency=0.015978300952380953, energy=1.139672766445781, utilization=-1, estimation_time=4.913761377334595)
+Mm estimate(latency=0.03245592380952381, energy=1.6706911278187153, utilization=-1, estimation_time=4.737311601638794) estimate(latency=0.015978300952380953, energy=1.319586056849326, utilization=-1, estimation_time=4.782447814941406)
+Mm estimate(latency=0.02396745142857143, energy=1.6791990629438587, utilization=-1, estimation_time=4.142444849014282) estimate(latency=0.015978300952380953, energy=1.3438569522040669, utilization=-1, estimation_time=4.131845474243164)
+Mm estimate(latency=0.02396745142857143, energy=1.9505495419513736, utilization=-1, estimation_time=4.207472324371338) estimate(latency=0.015978300952380953, energy=1.4854424937784934, utilization=-1, estimation_time=4.206557989120483)
+Mm estimate(latency=0.03245592380952381, energy=1.3342368023136177, utilization=-1, estimation_time=5.143272399902344) estimate(latency=0.015978300952380953, energy=1.155368619806294, utilization=-1, estimation_time=4.983417272567749)
+Mm estimate(latency=0.03245592380952381, energy=1.6915450430577705, utilization=-1, estimation_time=5.034323692321777) estimate(latency=0.015978300952380953, energy=1.3506320437000274, utilization=-1, estimation_time=4.87598991394043)
+Mm estimate(latency=0.02396745142857143, energy=1.6789745926521487, utilization=-1, estimation_time=4.3601884841918945) estimate(latency=0.015978300952380953, energy=1.3436324819123568, utilization=-1, estimation_time=4.35059118270874)
+Mm estimate(latency=0.02396745142857143, energy=1.9502128365138085, utilization=-1, estimation_time=4.432286739349365) estimate(latency=0.015978300952380953, energy=1.4851057883409284, utilization=-1, estimation_time=4.425842761993408)
+fused ~~ Mm estimate(latency=0.015978310476190475, energy=1.1449047175659521, utilization=-1, estimation_time=4.882651090621948) estimate(latency=0.03245593333333333, energy=1.3237729000732754, utilization=-1, estimation_time=5.022679567337036)
+fused ~~ Mm estimate(latency=0.015978310476190475, energy=1.139672766445781, utilization=-1, estimation_time=4.9237425327301025) estimate(latency=0.03245593333333333, energy=1.3237729000732754, utilization=-1, estimation_time=5.12282395362854)
+fused ~~ Mm estimate(latency=0.015978310476190475, energy=1.319586056849326, utilization=-1, estimation_time=4.779392957687378) estimate(latency=0.03245593333333333, energy=1.6706911278187153, utilization=-1, estimation_time=4.728545188903809)
+fused ~~ Mm estimate(latency=0.015978310476190475, energy=1.3438569522040669, utilization=-1, estimation_time=4.153846740722656) estimate(latency=0.02396746095238095, energy=1.6791990629438587, utilization=-1, estimation_time=4.151149272918701)
+fused ~~ Mm estimate(latency=0.015978310476190475, energy=1.4854424937784934, utilization=-1, estimation_time=4.235474348068237) estimate(latency=0.02396746095238095, energy=1.9505495419513736, utilization=-1, estimation_time=4.227419137954712)
+fused ~~ Mm estimate(latency=0.015978310476190475, energy=1.155368619806294, utilization=-1, estimation_time=5.350146293640137) estimate(latency=0.03245593333333333, energy=1.3342368023136177, utilization=-1, estimation_time=5.493457078933716)
+fused ~~ Mm estimate(latency=0.015978310476190475, energy=1.3506320437000274, utilization=-1, estimation_time=5.256836175918579) estimate(latency=0.03245593333333333, energy=1.6915450430577705, utilization=-1, estimation_time=5.398916721343994)
+fused ~~ Mm estimate(latency=0.015978310476190475, energy=1.3436324819123568, utilization=-1, estimation_time=5.099191427230835) estimate(latency=0.02396746095238095, energy=1.6789745926521487, utilization=-1, estimation_time=5.096204042434692)
+fused ~~ Mm estimate(latency=0.015978310476190475, energy=1.4851057883409284, utilization=-1, estimation_time=4.732418775558472) estimate(latency=0.02396746095238095, energy=1.9502128365138085, utilization=-1, estimation_time=4.728976726531982)
+fused ~~ Linear estimate(latency=0.023483744761904762, energy=0.7379594987256218, utilization=-1, estimation_time=2.7346601486206055) estimate(latency=0.023905038095238095, energy=0.7188655166104535, utilization=-1, estimation_time=2.5988972187042236)
+fused ~~ Linear estimate(latency=0.023483744761904762, energy=0.7238986300901622, utilization=-1, estimation_time=2.2772364616394043) estimate(latency=0.023905038095238095, energy=0.7048046479749939, utilization=-1, estimation_time=2.269230365753174)
+fused ~~ Linear estimate(latency=0.023483744761904762, energy=0.7119368360586446, utilization=-1, estimation_time=2.4115235805511475) estimate(latency=0.023905038095238095, energy=0.7070425784228249, utilization=-1, estimation_time=2.405557632446289)
+fused ~~ Linear estimate(latency=0.021470853333333335, energy=0.7524019722023731, utilization=-1, estimation_time=2.3403282165527344) estimate(latency=0.0171954, energy=0.7011704631470326, utilization=-1, estimation_time=2.3413660526275635)
+fused ~~ Linear estimate(latency=0.021470853333333335, energy=0.7333216748147179, utilization=-1, estimation_time=2.4345786571502686) estimate(latency=0.0171954, energy=0.708504988776661, utilization=-1, estimation_time=2.4417171478271484)
+fused ~~ Linear estimate(latency=0.023483744761904762, energy=0.766081235996541, utilization=-1, estimation_time=2.8440117835998535) estimate(latency=0.023905038095238095, energy=0.7751089911522918, utilization=-1, estimation_time=2.593961715698242)
+fused ~~ Linear estimate(latency=0.020799889523809525, energy=0.9632111784354775, utilization=-1, estimation_time=5.503080129623413) estimate(latency=0.02122118285714286, energy=0.8417366338780529, utilization=-1, estimation_time=4.359222412109375)
+fused ~~ Linear estimate(latency=0.021470853333333335, energy=0.8664331957188035, utilization=-1, estimation_time=2.3382797241210938) estimate(latency=0.0171954, energy=0.7581860749052477, utilization=-1, estimation_time=2.334765911102295)
+fused ~~ Linear estimate(latency=0.021470853333333335, energy=0.9718672073831873, utilization=-1, estimation_time=2.2898502349853516) estimate(latency=0.0171954, energy=0.8277777550608958, utilization=-1, estimation_time=2.2824370861053467)
+Linear estimate(latency=0.023483733333333333, energy=0.7379594987256218, utilization=-1, estimation_time=2.598724842071533) estimate(latency=0.02390503619047619, energy=0.7188655166104535, utilization=-1, estimation_time=2.466672897338867)
+Linear estimate(latency=0.023483733333333333, energy=0.7238986300901622, utilization=-1, estimation_time=2.3134865760803223) estimate(latency=0.02390503619047619, energy=0.7048046479749939, utilization=-1, estimation_time=2.303122043609619)
+Linear estimate(latency=0.023483733333333333, energy=0.7119368360586446, utilization=-1, estimation_time=2.273505687713623) estimate(latency=0.02390503619047619, energy=0.7070425784228249, utilization=-1, estimation_time=2.263484239578247)
+Linear estimate(latency=0.021470841904761905, energy=0.7524019722023731, utilization=-1, estimation_time=2.2397072315216064) estimate(latency=0.017195398095238096, energy=0.7011704631470326, utilization=-1, estimation_time=2.242018938064575)
+Linear estimate(latency=0.021470841904761905, energy=0.7333216748147179, utilization=-1, estimation_time=2.239237070083618) estimate(latency=0.017195398095238096, energy=0.708504988776661, utilization=-1, estimation_time=2.246131181716919)
+Linear estimate(latency=0.023483733333333333, energy=0.766081235996541, utilization=-1, estimation_time=3.026923179626465) estimate(latency=0.02390503619047619, energy=0.7751089911522918, utilization=-1, estimation_time=2.776524782180786)
+Linear estimate(latency=0.020799878095238096, energy=0.9632111784354775, utilization=-1, estimation_time=3.390077829360962) estimate(latency=0.02122118095238095, energy=0.8417366338780529, utilization=-1, estimation_time=3.2536284923553467)
+Linear estimate(latency=0.021470841904761905, energy=0.8664331957188035, utilization=-1, estimation_time=2.2593767642974854) estimate(latency=0.017195398095238096, energy=0.7581860749052477, utilization=-1, estimation_time=2.2567780017852783)
+Linear estimate(latency=0.021470841904761905, energy=0.9718672073831873, utilization=-1, estimation_time=2.2436394691467285) estimate(latency=0.017195398095238096, energy=0.8277777550608958, utilization=-1, estimation_time=2.241652250289917)
+Linear estimate(latency=0.02390503619047619, energy=0.7188655166104535, utilization=-1, estimation_time=2.4206271171569824) estimate(latency=0.023483733333333333, energy=0.7379594987256218, utilization=-1, estimation_time=2.541815996170044)
+Linear estimate(latency=0.02390503619047619, energy=0.7048046479749939, utilization=-1, estimation_time=2.333347797393799) estimate(latency=0.023483733333333333, energy=0.7238986300901622, utilization=-1, estimation_time=2.3305678367614746)
+Linear estimate(latency=0.02390503619047619, energy=0.7070425784228249, utilization=-1, estimation_time=2.3361971378326416) estimate(latency=0.023483733333333333, energy=0.7119368360586446, utilization=-1, estimation_time=2.333829164505005)
+Linear estimate(latency=0.017195398095238096, energy=0.7011704631470326, utilization=-1, estimation_time=2.2473742961883545) estimate(latency=0.021470841904761905, energy=0.7524019722023731, utilization=-1, estimation_time=2.232961893081665)
+Linear estimate(latency=0.017195398095238096, energy=0.708504988776661, utilization=-1, estimation_time=2.3021388053894043) estimate(latency=0.021470841904761905, energy=0.7333216748147179, utilization=-1, estimation_time=2.2809903621673584)
+Linear estimate(latency=0.02390503619047619, energy=0.7751089911522918, utilization=-1, estimation_time=2.596588611602783) estimate(latency=0.023483733333333333, energy=0.766081235996541, utilization=-1, estimation_time=2.831946611404419)
+Linear estimate(latency=0.02122118095238095, energy=0.8417366338780529, utilization=-1, estimation_time=3.1176342964172363) estimate(latency=0.020799878095238096, energy=0.9632111784354775, utilization=-1, estimation_time=3.2376415729522705)
+Linear estimate(latency=0.017195398095238096, energy=0.7581860749052477, utilization=-1, estimation_time=2.2800281047821045) estimate(latency=0.021470841904761905, energy=0.8664331957188035, utilization=-1, estimation_time=2.271819591522217)
+Linear estimate(latency=0.017195398095238096, energy=0.8277777550608958, utilization=-1, estimation_time=2.2551519870758057) estimate(latency=0.021470841904761905, energy=0.9718672073831873, utilization=-1, estimation_time=2.2418932914733887)
+Linear estimate(latency=0.06826666666666667, energy=2.0789014212704666, utilization=-1, estimation_time=4.367495059967041) estimate(latency=0.0699674819047619, energy=2.0818877164158978, utilization=-1, estimation_time=4.3575828075408936)
+Linear estimate(latency=0.06826666666666667, energy=1.9971521850177945, utilization=-1, estimation_time=4.302372455596924) estimate(latency=0.0699674819047619, energy=2.030410071761486, utilization=-1, estimation_time=4.296006202697754)
+Linear estimate(latency=0.06826666666666667, energy=2.0546937641921086, utilization=-1, estimation_time=4.535499095916748) estimate(latency=0.0699674819047619, energy=2.0722583459295394, utilization=-1, estimation_time=4.529404163360596)
+Linear estimate(latency=0.06241523809523809, energy=2.1727606224177727, utilization=-1, estimation_time=4.7178239822387695) estimate(latency=0.05046272, energy=2.056020572837511, utilization=-1, estimation_time=4.612221002578735)
+Linear estimate(latency=0.06241523809523809, energy=2.086301228667175, utilization=-1, estimation_time=4.919134616851807) estimate(latency=0.05046272, energy=2.0291246135915313, utilization=-1, estimation_time=4.824775218963623)
+Linear estimate(latency=0.06826666666666667, energy=2.205610927141781, utilization=-1, estimation_time=4.876568078994751) estimate(latency=0.0699674819047619, energy=2.2453861889212416, utilization=-1, estimation_time=4.754852771759033)
+Linear estimate(latency=0.0604647619047619, energy=2.7851424338922044, utilization=-1, estimation_time=5.521306753158569) estimate(latency=0.06216557714285714, energy=2.463809038987297, utilization=-1, estimation_time=5.513455152511597)
+Linear estimate(latency=0.06241523809523809, energy=2.504246737291117, utilization=-1, estimation_time=4.854569673538208) estimate(latency=0.05046272, energy=2.221763630274183, utilization=-1, estimation_time=4.737037897109985)
+Linear estimate(latency=0.06241523809523809, energy=2.779747544273191, utilization=-1, estimation_time=4.869395732879639) estimate(latency=0.05046272, energy=2.3758477713945396, utilization=-1, estimation_time=4.756154537200928)
+Estimating for layer_id -1
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.00018315582830310398, utilization=-1, estimation_time=2.5161826610565186) estimate(latency=4.022857142857143e-06, energy=0.00022778292655909995, utilization=-1, estimation_time=2.512803316116333)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.000183392803382528, utilization=-1, estimation_time=2.4928667545318604) estimate(latency=4.144761904761905e-06, energy=0.00022801990163852395, utilization=-1, estimation_time=2.48583984375)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.000227196573893376, utilization=-1, estimation_time=2.539155960083008) estimate(latency=4.388571428571429e-06, energy=0.00031381032958937194, utilization=-1, estimation_time=2.5378599166870117)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.00022994273858790401, utilization=-1, estimation_time=2.3595869541168213) estimate(latency=4.022857142857143e-06, energy=0.00031980873119725144, utilization=-1, estimation_time=2.3522608280181885)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.000264123768182528, utilization=-1, estimation_time=2.4363644123077393) estimate(latency=4.144761904761905e-06, energy=0.0003866846339118755, utilization=-1, estimation_time=2.429509162902832)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.000183037340763392, utilization=-1, estimation_time=2.4615986347198486) estimate(latency=3.9619047619047616e-06, energy=0.00022766443901938794, utilization=-1, estimation_time=2.4521632194519043)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.00022636716111539202, utilization=-1, estimation_time=2.0675230026245117) estimate(latency=3.9619047619047616e-06, energy=0.0003129809168113879, utilization=-1, estimation_time=2.060915470123291)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.000229722618638592, utilization=-1, estimation_time=2.0986173152923584) estimate(latency=3.9619047619047616e-06, energy=0.00031958861124793946, utilization=-1, estimation_time=2.0905964374542236)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.00026346340833459196, utilization=-1, estimation_time=2.1467642784118652) estimate(latency=3.9619047619047616e-06, energy=0.0003860242740639395, utilization=-1, estimation_time=2.1395440101623535)
+Populated estimates for model:  llama2  ...
+Extracted graph and populated for all the models ...
+running solver for model: llama2 with accelerator config: acc_config(num_tc=4, num_vc=2, width=256, depth=256, width_vc=256, GLB_Buffer=268435456, area=555555059.90432)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=268435456, area=401015327.679264)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=8, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=134217728, area=278826676.31216)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=2, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=134217728, area=278518529.95216)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=134217728, area=227074327.679264)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=128, depth=128, width_vc=128, GLB_Buffer=134217728, area=188427588.951408)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=4, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=98558244.03926401)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=2, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=72760077.902816)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=59755488.951408)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+All architectures explored
+[91mNo config found in the whole search space[0m
+Best phaze config for mbs:  2  HBM:  80  Activation Recomp:  False 
+ Config  (None, None) 
+ Models ['llama2'] 
+ total solving time, ilptime and dptime 788.843915939331 186.4798619747162 20.639583587646484 
+ estimation time 1484.4506647586823
+mbs:  2  HBM size: 80 activation_recomputation: True
+Extracting graph for model:  llama2  ...
+Object file not available to load. Extracting the model again. /storage/ice1/8/4/madain3/hml/phaze_hml_spring26/GraphExtractor/utils/../out/Llama/llama2_mbs_2_sl_4096.pickle
+Loaded model from file
+'[93mModel load from file failed due to check 1. Exporting again.[0m
+Loaded phaze graph successfully from file for model llama2
+[96mExtending number of layers (only) in the graph to 32 for model llama2 [0m
+Extracted graph for model:  llama2  ...
+Initialized accelerator directories and files for area and energy estimation!
+Populated estimates for model:  llama2  ...
+Extracted graph and populated for all the models ...
+running solver for model: llama2 with accelerator config: acc_config(num_tc=4, num_vc=2, width=256, depth=256, width_vc=256, GLB_Buffer=268435456, area=555555059.90432)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=268435456, area=401015327.679264)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=8, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=134217728, area=278826676.31216)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=2, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=134217728, area=278518529.95216)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=134217728, area=227074327.679264)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=128, depth=128, width_vc=128, GLB_Buffer=134217728, area=188427588.951408)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=4, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=98558244.03926401)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=2, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=72760077.902816)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=59755488.951408)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+All architectures explored
+Best phaze config for mbs:  2  HBM:  80  Activation Recomp:  True 
+ Config  (acc_config(num_tc=4, num_vc=2, width=256, depth=256, width_vc=256, GLB_Buffer=268435456, area=555555059.90432), {'llama2': out_per_cc_per_model(dist_strategy=dist_config(ppdepth=16, tmpcwidth=1, dpwidth=64), throughput=83.17015388435247, fixed_strategy_throughput=63.89480205568018, utilization={'TC': {'peak': 0.75, 'avg': 0.31211618674922154}, 'VC': {'peak': 0.75, 'avg': 0.34164922683267257}})}) 
+ Models ['llama2'] 
+ total solving time, ilptime and dptime 209.25932574272156 186.33811616897583 22.05556845664978 
+ estimation time 1484.4506647586823
+mbs:  4  HBM size: 80 activation_recomputation: False
+Extracting graph for model:  llama2  ...
+Object file not available to load. Extracting the model again. /storage/ice1/8/4/madain3/hml/phaze_hml_spring26/GraphExtractor/utils/../out/Llama/llama2_mbs_4_sl_4096.pickle
+Loaded model from file
+'[93mModel load from file failed due to check 1. Exporting again.[0m
+Loaded phaze graph successfully from file for model llama2
+[96mExtending number of layers (only) in the graph to 32 for model llama2 [0m
+Extracted graph for model:  llama2  ...
+Initialized accelerator directories and files for area and energy estimation!
+Estimating for layer_id 0
+Linear estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=3.20428729057312) estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=3.198033094406128)
+Linear estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=3.701207160949707) estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=3.694202423095703)
+Linear estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.644683837890625) estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.6251039505004883)
+Linear estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=2.3169782161712646) estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=2.3060948848724365)
+Linear estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=2.3596155643463135) estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=2.3480818271636963)
+Linear estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=4.325512170791626) estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=4.318556070327759)
+Linear estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=5.0832459926605225) estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=5.079742193222046)
+Linear estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=2.428877115249634) estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=2.4228785037994385)
+Linear estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=2.419363260269165) estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=2.4096715450286865)
+Linear estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=3.277101516723633) estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=3.2643539905548096)
+Linear estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=3.727170705795288) estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=3.709395408630371)
+Linear estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.7277839183807373) estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.718146800994873)
+Linear estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=2.3504271507263184) estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=2.3472537994384766)
+Linear estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=2.533219575881958) estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=2.5235109329223633)
+Linear estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=4.3355512619018555) estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=4.321789979934692)
+Linear estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=5.005131244659424) estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=4.992549657821655)
+Linear estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=2.2394909858703613) estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=2.230747938156128)
+Linear estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=2.265535593032837) estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=2.2703497409820557)
+Linear estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=3.133066415786743) estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=3.123746871948242)
+Linear estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=5.947412729263306) estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=6.35236120223999)
+Linear estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.622629404067993) estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.6282904148101807)
+Linear estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=2.3128039836883545) estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=2.304501533508301)
+Linear estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=2.4623470306396484) estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=2.452725410461426)
+Linear estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=4.367144823074341) estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=4.359043836593628)
+Linear estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=5.008811712265015) estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=5.0004799365997314)
+Linear estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=2.300676107406616) estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=2.292590856552124)
+Linear estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=2.3268210887908936) estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=2.3161792755126953)
+fused ~~ Linear estimate(latency=0.005742202857142857, energy=0.2603946110987797, utilization=-1, estimation_time=3.212620735168457) estimate(latency=0.005742202857142857, energy=0.2603946110987797, utilization=-1, estimation_time=3.2040507793426514)
+fused ~~ Linear estimate(latency=0.005742202857142857, energy=0.24993070885843768, utilization=-1, estimation_time=3.6812047958374023) estimate(latency=0.005742202857142857, energy=0.24993070885843768, utilization=-1, estimation_time=3.6781930923461914)
+fused ~~ Linear estimate(latency=0.005742202857142857, energy=0.26888897823925867, utilization=-1, estimation_time=3.644399881362915) estimate(latency=0.005742202857142857, energy=0.26888897823925867, utilization=-1, estimation_time=3.6444602012634277)
+fused ~~ Linear estimate(latency=0.0027462714285714286, energy=0.26691493119079224, utilization=-1, estimation_time=2.407210350036621) estimate(latency=0.0027462714285714286, energy=0.26691493119079224, utilization=-1, estimation_time=2.4006385803222656)
+fused ~~ Linear estimate(latency=0.0027462714285714286, energy=0.2709582555476132, utilization=-1, estimation_time=2.4530725479125977) estimate(latency=0.0027462714285714286, energy=0.2709582555476132, utilization=-1, estimation_time=2.4416966438293457)
+fused ~~ Linear estimate(latency=0.005742202857142857, energy=0.2708585133391217, utilization=-1, estimation_time=4.299807786941528) estimate(latency=0.005742202857142857, energy=0.2708585133391217, utilization=-1, estimation_time=4.291303634643555)
+fused ~~ Linear estimate(latency=0.005742202857142857, energy=0.3219267566189937, utilization=-1, estimation_time=5.0582239627838135) estimate(latency=0.005742202857142857, energy=0.3219267566189937, utilization=-1, estimation_time=5.046853542327881)
+fused ~~ Linear estimate(latency=0.0027462714285714286, energy=0.2775224868667392, utilization=-1, estimation_time=2.2944228649139404) estimate(latency=0.0027462714285714286, energy=0.2775224868667392, utilization=-1, estimation_time=2.2824862003326416)
+fused ~~ Linear estimate(latency=0.0027462714285714286, energy=0.3005452983468032, utilization=-1, estimation_time=2.4012742042541504) estimate(latency=0.0027462714285714286, energy=0.3005452983468032, utilization=-1, estimation_time=2.39353084564209)
+Mm estimate(latency=0.06491184761904761, energy=2.647195615454298, utilization=-1, estimation_time=7.753094911575317) estimate(latency=0.031956601904761905, energy=2.289459250439651, utilization=-1, estimation_time=7.425648212432861)
+Mm estimate(latency=0.06491184761904761, energy=2.647195615454298, utilization=-1, estimation_time=7.980013132095337) estimate(latency=0.031956601904761905, energy=2.2789953481993095, utilization=-1, estimation_time=7.542481422424316)
+Mm estimate(latency=0.06491184761904761, energy=3.3409480771239943, utilization=-1, estimation_time=7.193384647369385) estimate(latency=0.031956601904761905, energy=2.6387379351852154, utilization=-1, estimation_time=7.264316082000732)
+Mm estimate(latency=0.04793490285714286, energy=3.3579639473742806, utilization=-1, estimation_time=6.269171953201294) estimate(latency=0.031956601904761905, energy=2.687279725894697, utilization=-1, estimation_time=6.246859788894653)
+Mm estimate(latency=0.04793490285714286, energy=3.900599499674878, utilization=-1, estimation_time=6.136887073516846) estimate(latency=0.031956601904761905, energy=2.9703854033291184, utilization=-1, estimation_time=6.1246337890625)
+Mm estimate(latency=0.06491184761904761, energy=2.6681234199349824, utilization=-1, estimation_time=7.7582597732543945) estimate(latency=0.031956601904761905, energy=2.3103870549203354, utilization=-1, estimation_time=7.425336837768555)
+Mm estimate(latency=0.06491184761904761, energy=3.3826559076021043, utilization=-1, estimation_time=7.74515700340271) estimate(latency=0.031956601904761905, energy=2.701264087400055, utilization=-1, estimation_time=7.419439792633057)
+Mm estimate(latency=0.04793490285714286, energy=3.357515006790861, utilization=-1, estimation_time=6.607798337936401) estimate(latency=0.031956601904761905, energy=2.686830785311277, utilization=-1, estimation_time=6.596372127532959)
+Mm estimate(latency=0.04793490285714286, energy=3.8999260887997482, utilization=-1, estimation_time=6.666531085968018) estimate(latency=0.031956601904761905, energy=2.969711992453988, utilization=-1, estimation_time=6.665026903152466)
+fused ~~ Mm estimate(latency=0.03195661142857143, energy=2.289459250439651, utilization=-1, estimation_time=7.5656163692474365) estimate(latency=0.06491185714285715, energy=2.647195615454298, utilization=-1, estimation_time=7.872925758361816)
+fused ~~ Mm estimate(latency=0.03195661142857143, energy=2.2789953481993095, utilization=-1, estimation_time=7.584970235824585) estimate(latency=0.06491185714285715, energy=2.647195615454298, utilization=-1, estimation_time=8.001826286315918)
+fused ~~ Mm estimate(latency=0.03195661142857143, energy=2.6387379351852154, utilization=-1, estimation_time=7.3551366329193115) estimate(latency=0.06491185714285715, energy=3.3409480771239943, utilization=-1, estimation_time=7.259697437286377)
+fused ~~ Mm estimate(latency=0.03195661142857143, energy=2.687279725894697, utilization=-1, estimation_time=6.455676794052124) estimate(latency=0.047934912380952384, energy=3.3579639473742806, utilization=-1, estimation_time=6.4547646045684814)
+fused ~~ Mm estimate(latency=0.03195661142857143, energy=2.9703854033291184, utilization=-1, estimation_time=6.419212341308594) estimate(latency=0.047934912380952384, energy=3.900599499674878, utilization=-1, estimation_time=6.4066503047943115)
+fused ~~ Mm estimate(latency=0.03195661142857143, energy=2.3103870549203354, utilization=-1, estimation_time=7.5907745361328125) estimate(latency=0.06491185714285715, energy=2.6681234199349824, utilization=-1, estimation_time=7.891306638717651)
+fused ~~ Mm estimate(latency=0.03195661142857143, energy=2.701264087400055, utilization=-1, estimation_time=7.758481025695801) estimate(latency=0.06491185714285715, energy=3.3826559076021043, utilization=-1, estimation_time=8.05915355682373)
+fused ~~ Mm estimate(latency=0.03195661142857143, energy=2.686830785311277, utilization=-1, estimation_time=6.571911334991455) estimate(latency=0.047934912380952384, energy=3.357515006790861, utilization=-1, estimation_time=6.566679000854492)
+fused ~~ Mm estimate(latency=0.03195661142857143, energy=2.969711992453988, utilization=-1, estimation_time=6.643183469772339) estimate(latency=0.047934912380952384, energy=3.8999260887997482, utilization=-1, estimation_time=6.635835647583008)
+fused ~~ Linear estimate(latency=0.023483744761904762, energy=0.7379594987256218, utilization=-1, estimation_time=2.5565712451934814) estimate(latency=0.023905038095238095, energy=0.7188655166104535, utilization=-1, estimation_time=2.413550853729248)
+fused ~~ Linear estimate(latency=0.023483744761904762, energy=0.7238986300901622, utilization=-1, estimation_time=2.2919909954071045) estimate(latency=0.023905038095238095, energy=0.7048046479749939, utilization=-1, estimation_time=2.2846078872680664)
+fused ~~ Linear estimate(latency=0.023483744761904762, energy=0.7119368360586446, utilization=-1, estimation_time=2.3099822998046875) estimate(latency=0.023905038095238095, energy=0.7070425784228249, utilization=-1, estimation_time=2.301372766494751)
+fused ~~ Linear estimate(latency=0.021470853333333335, energy=0.7524019722023731, utilization=-1, estimation_time=2.2447831630706787) estimate(latency=0.0171954, energy=0.7011704631470326, utilization=-1, estimation_time=2.2460687160491943)
+fused ~~ Linear estimate(latency=0.021470853333333335, energy=0.7333216748147179, utilization=-1, estimation_time=2.27720046043396) estimate(latency=0.0171954, energy=0.708504988776661, utilization=-1, estimation_time=2.2852957248687744)
+fused ~~ Linear estimate(latency=0.023483744761904762, energy=0.766081235996541, utilization=-1, estimation_time=2.7907748222351074) estimate(latency=0.023905038095238095, energy=0.7751089911522918, utilization=-1, estimation_time=2.5324044227600098)
+fused ~~ Linear estimate(latency=0.020799889523809525, energy=0.9632111784354775, utilization=-1, estimation_time=3.311126708984375) estimate(latency=0.02122118285714286, energy=0.8417366338780529, utilization=-1, estimation_time=3.172297716140747)
+fused ~~ Linear estimate(latency=0.021470853333333335, energy=0.8664331957188035, utilization=-1, estimation_time=2.276454448699951) estimate(latency=0.0171954, energy=0.7581860749052477, utilization=-1, estimation_time=2.272470712661743)
+fused ~~ Linear estimate(latency=0.021470853333333335, energy=0.9718672073831873, utilization=-1, estimation_time=2.247791051864624) estimate(latency=0.0171954, energy=0.8277777550608958, utilization=-1, estimation_time=2.24318265914917)
+Linear estimate(latency=0.023483733333333333, energy=0.7379594987256218, utilization=-1, estimation_time=2.6056911945343018) estimate(latency=0.02390503619047619, energy=0.7188655166104535, utilization=-1, estimation_time=2.46268367767334)
+Linear estimate(latency=0.023483733333333333, energy=0.7238986300901622, utilization=-1, estimation_time=2.317070722579956) estimate(latency=0.02390503619047619, energy=0.7048046479749939, utilization=-1, estimation_time=2.305316209793091)
+Linear estimate(latency=0.023483733333333333, energy=0.7119368360586446, utilization=-1, estimation_time=2.362624168395996) estimate(latency=0.02390503619047619, energy=0.7070425784228249, utilization=-1, estimation_time=2.3576831817626953)
+Linear estimate(latency=0.021470841904761905, energy=0.7524019722023731, utilization=-1, estimation_time=2.3190863132476807) estimate(latency=0.017195398095238096, energy=0.7011704631470326, utilization=-1, estimation_time=2.3177926540374756)
+Linear estimate(latency=0.021470841904761905, energy=0.7333216748147179, utilization=-1, estimation_time=2.2727437019348145) estimate(latency=0.017195398095238096, energy=0.708504988776661, utilization=-1, estimation_time=2.279087781906128)
+Linear estimate(latency=0.023483733333333333, energy=0.766081235996541, utilization=-1, estimation_time=2.7875072956085205) estimate(latency=0.02390503619047619, energy=0.7751089911522918, utilization=-1, estimation_time=2.5292043685913086)
+Linear estimate(latency=0.020799878095238096, energy=0.9632111784354775, utilization=-1, estimation_time=3.2822659015655518) estimate(latency=0.02122118095238095, energy=0.8417366338780529, utilization=-1, estimation_time=3.144155979156494)
+Linear estimate(latency=0.021470841904761905, energy=0.8664331957188035, utilization=-1, estimation_time=2.294341564178467) estimate(latency=0.017195398095238096, energy=0.7581860749052477, utilization=-1, estimation_time=2.289903163909912)
+Linear estimate(latency=0.021470841904761905, energy=0.9718672073831873, utilization=-1, estimation_time=2.322617769241333) estimate(latency=0.017195398095238096, energy=0.8277777550608958, utilization=-1, estimation_time=2.3093948364257812)
+Linear estimate(latency=0.02390503619047619, energy=0.7188655166104535, utilization=-1, estimation_time=2.4187419414520264) estimate(latency=0.023483733333333333, energy=0.7379594987256218, utilization=-1, estimation_time=2.5401289463043213)
+Linear estimate(latency=0.02390503619047619, energy=0.7048046479749939, utilization=-1, estimation_time=2.3645870685577393) estimate(latency=0.023483733333333333, energy=0.7238986300901622, utilization=-1, estimation_time=2.355325222015381)
+Linear estimate(latency=0.02390503619047619, energy=0.7070425784228249, utilization=-1, estimation_time=2.3186874389648438) estimate(latency=0.023483733333333333, energy=0.7119368360586446, utilization=-1, estimation_time=2.312077760696411)
+Linear estimate(latency=0.017195398095238096, energy=0.7011704631470326, utilization=-1, estimation_time=2.2541310787200928) estimate(latency=0.021470841904761905, energy=0.7524019722023731, utilization=-1, estimation_time=2.2372498512268066)
+Linear estimate(latency=0.017195398095238096, energy=0.708504988776661, utilization=-1, estimation_time=2.270970106124878) estimate(latency=0.021470841904761905, energy=0.7333216748147179, utilization=-1, estimation_time=2.2479569911956787)
+Linear estimate(latency=0.02390503619047619, energy=0.7751089911522918, utilization=-1, estimation_time=2.561872959136963) estimate(latency=0.023483733333333333, energy=0.766081235996541, utilization=-1, estimation_time=2.8084418773651123)
+Linear estimate(latency=0.02122118095238095, energy=0.8417366338780529, utilization=-1, estimation_time=3.162494421005249) estimate(latency=0.020799878095238096, energy=0.9632111784354775, utilization=-1, estimation_time=3.291095733642578)
+Linear estimate(latency=0.017195398095238096, energy=0.7581860749052477, utilization=-1, estimation_time=2.267094373703003) estimate(latency=0.021470841904761905, energy=0.8664331957188035, utilization=-1, estimation_time=2.2559971809387207)
+Linear estimate(latency=0.017195398095238096, energy=0.8277777550608958, utilization=-1, estimation_time=2.2502691745758057) estimate(latency=0.021470841904761905, energy=0.9718672073831873, utilization=-1, estimation_time=2.2400381565093994)
+Linear estimate(latency=0.06826666666666667, energy=2.0789014212704666, utilization=-1, estimation_time=4.33989691734314) estimate(latency=0.0699674819047619, energy=2.0818877164158978, utilization=-1, estimation_time=4.328643083572388)
+Linear estimate(latency=0.06826666666666667, energy=1.9971521850177945, utilization=-1, estimation_time=4.36307692527771) estimate(latency=0.0699674819047619, energy=2.030410071761486, utilization=-1, estimation_time=4.345760345458984)
+Linear estimate(latency=0.06826666666666667, energy=2.0546937641921086, utilization=-1, estimation_time=4.375241041183472) estimate(latency=0.0699674819047619, energy=2.0722583459295394, utilization=-1, estimation_time=4.35978102684021)
+Linear estimate(latency=0.06241523809523809, energy=2.1727606224177727, utilization=-1, estimation_time=4.554879188537598) estimate(latency=0.05046272, energy=2.056020572837511, utilization=-1, estimation_time=4.444337844848633)
+Linear estimate(latency=0.06241523809523809, energy=2.086301228667175, utilization=-1, estimation_time=4.53178071975708) estimate(latency=0.05046272, energy=2.0291246135915313, utilization=-1, estimation_time=4.423808574676514)
+Linear estimate(latency=0.06826666666666667, energy=2.205610927141781, utilization=-1, estimation_time=4.653582572937012) estimate(latency=0.0699674819047619, energy=2.2453861889212416, utilization=-1, estimation_time=4.514767169952393)
+Linear estimate(latency=0.0604647619047619, energy=2.7851424338922044, utilization=-1, estimation_time=5.033177137374878) estimate(latency=0.06216557714285714, energy=2.463809038987297, utilization=-1, estimation_time=5.02144455909729)
+Linear estimate(latency=0.06241523809523809, energy=2.504246737291117, utilization=-1, estimation_time=4.64309287071228) estimate(latency=0.05046272, energy=2.221763630274183, utilization=-1, estimation_time=4.522606134414673)
+Linear estimate(latency=0.06241523809523809, energy=2.779747544273191, utilization=-1, estimation_time=4.520055532455444) estimate(latency=0.05046272, energy=2.3758477713945396, utilization=-1, estimation_time=4.402789354324341)
+Estimating for layer_id -1
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.00018315582830310398, utilization=-1, estimation_time=2.0312092304229736) estimate(latency=4.022857142857143e-06, energy=0.00022778292655909995, utilization=-1, estimation_time=2.0234453678131104)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.000183392803382528, utilization=-1, estimation_time=1.999072790145874) estimate(latency=4.144761904761905e-06, energy=0.00022801990163852395, utilization=-1, estimation_time=1.9902756214141846)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.000227196573893376, utilization=-1, estimation_time=2.0000741481781006) estimate(latency=4.388571428571429e-06, energy=0.00031381032958937194, utilization=-1, estimation_time=1.9905357360839844)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.00022994273858790401, utilization=-1, estimation_time=2.051776885986328) estimate(latency=4.022857142857143e-06, energy=0.00031980873119725144, utilization=-1, estimation_time=2.031184673309326)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.000264123768182528, utilization=-1, estimation_time=2.071845293045044) estimate(latency=4.144761904761905e-06, energy=0.0003866846339118755, utilization=-1, estimation_time=2.0638482570648193)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.000183037340763392, utilization=-1, estimation_time=2.086237668991089) estimate(latency=3.9619047619047616e-06, energy=0.00022766443901938794, utilization=-1, estimation_time=2.0781846046447754)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.00022636716111539202, utilization=-1, estimation_time=2.1261892318725586) estimate(latency=3.9619047619047616e-06, energy=0.0003129809168113879, utilization=-1, estimation_time=2.1179442405700684)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.000229722618638592, utilization=-1, estimation_time=2.12136173248291) estimate(latency=3.9619047619047616e-06, energy=0.00031958861124793946, utilization=-1, estimation_time=2.113790512084961)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.00026346340833459196, utilization=-1, estimation_time=2.082719326019287) estimate(latency=3.9619047619047616e-06, energy=0.0003860242740639395, utilization=-1, estimation_time=2.0733296871185303)
+Populated estimates for model:  llama2  ...
+Extracted graph and populated for all the models ...
+running solver for model: llama2 with accelerator config: acc_config(num_tc=4, num_vc=2, width=256, depth=256, width_vc=256, GLB_Buffer=268435456, area=555555059.90432)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=268435456, area=401015327.679264)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=8, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=134217728, area=278826676.31216)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=2, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=134217728, area=278518529.95216)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=134217728, area=227074327.679264)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=128, depth=128, width_vc=128, GLB_Buffer=134217728, area=188427588.951408)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=4, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=98558244.03926401)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=2, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=72760077.902816)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=59755488.951408)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+All architectures explored
+[91mNo config found in the whole search space[0m
+Best phaze config for mbs:  4  HBM:  80  Activation Recomp:  False 
+ Config  (None, None) 
+ Models ['llama2'] 
+ total solving time, ilptime and dptime 648.9258878231049 90.67365550994873 20.533085107803345 
+ estimation time 1390.312209367752
+mbs:  4  HBM size: 80 activation_recomputation: True
+Extracting graph for model:  llama2  ...
+Object file not available to load. Extracting the model again. /storage/ice1/8/4/madain3/hml/phaze_hml_spring26/GraphExtractor/utils/../out/Llama/llama2_mbs_4_sl_4096.pickle
+Loaded model from file
+'[93mModel load from file failed due to check 1. Exporting again.[0m
+Loaded phaze graph successfully from file for model llama2
+[96mExtending number of layers (only) in the graph to 32 for model llama2 [0m
+Extracted graph for model:  llama2  ...
+Initialized accelerator directories and files for area and energy estimation!
+Populated estimates for model:  llama2  ...
+Extracted graph and populated for all the models ...
+running solver for model: llama2 with accelerator config: acc_config(num_tc=4, num_vc=2, width=256, depth=256, width_vc=256, GLB_Buffer=268435456, area=555555059.90432)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=268435456, area=401015327.679264)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=8, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=134217728, area=278826676.31216)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=2, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=134217728, area=278518529.95216)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=134217728, area=227074327.679264)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=128, depth=128, width_vc=128, GLB_Buffer=134217728, area=188427588.951408)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=4, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=98558244.03926401)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=2, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=72760077.902816)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=59755488.951408)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+converged for model: llama2
+All architectures explored
+Best phaze config for mbs:  4  HBM:  80  Activation Recomp:  True 
+ Config  (acc_config(num_tc=4, num_vc=2, width=256, depth=256, width_vc=256, GLB_Buffer=268435456, area=555555059.90432), {'llama2': out_per_cc_per_model(dist_strategy=dist_config(ppdepth=16, tmpcwidth=1, dpwidth=64), throughput=88.61221167387478, fixed_strategy_throughput=68.72928915871361, utilization={'TC': {'peak': 0.75, 'avg': 0.281660694691434}, 'VC': {'peak': 0.75, 'avg': 0.3971555529464661}})}) 
+ Models ['llama2'] 
+ total solving time, ilptime and dptime 113.3087694644928 90.63692593574524 21.590492486953735 
+ estimation time 1390.312209367752
+mbs:  8  HBM size: 80 activation_recomputation: False
+Extracting graph for model:  llama2  ...
+Object file not available to load. Extracting the model again. /storage/ice1/8/4/madain3/hml/phaze_hml_spring26/GraphExtractor/utils/../out/Llama/llama2_mbs_8_sl_4096.pickle
+Loaded model from file
+'[93mModel load from file failed due to check 1. Exporting again.[0m
+Loaded phaze graph successfully from file for model llama2
+[96mExtending number of layers (only) in the graph to 32 for model llama2 [0m
+Extracted graph for model:  llama2  ...
+Initialized accelerator directories and files for area and energy estimation!
+Estimating for layer_id 0
+Linear estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=3.1102495193481445) estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=3.0999200344085693)
+Linear estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=3.557230234146118) estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=3.5557749271392822)
+Linear estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.5994558334350586) estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.595414876937866)
+Linear estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=2.285369634628296) estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=2.28031587600708)
+Linear estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=2.3129634857177734) estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=2.3143694400787354)
+Linear estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=4.1562840938568115) estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=4.1506571769714355)
+Linear estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=4.979703426361084) estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=4.968022584915161)
+Linear estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=2.2078559398651123) estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=2.200080156326294)
+Linear estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=2.253711700439453) estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=2.2487077713012695)
+Linear estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=3.16446852684021) estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=3.161344051361084)
+Linear estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=3.5514018535614014) estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=3.550140142440796)
+Linear estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.533316135406494) estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.533719539642334)
+Linear estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=2.3933141231536865) estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=2.3854637145996094)
+Linear estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=2.3800883293151855) estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=2.3741047382354736)
+Linear estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=4.176996231079102) estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=4.1691060066223145)
+Linear estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=5.073141098022461) estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=5.061522960662842)
+Linear estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=2.216928720474243) estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=2.212674379348755)
+Linear estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=2.293835401535034) estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=2.2861242294311523)
+Linear estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=3.173452854156494) estimate(latency=0.005742201904761905, energy=0.2603946110987797, utilization=-1, estimation_time=3.173088550567627)
+Linear estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=3.581594944000244) estimate(latency=0.005742201904761905, energy=0.24993070885843768, utilization=-1, estimation_time=3.5855798721313477)
+Linear estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.652707815170288) estimate(latency=0.005742201904761905, energy=0.26888897823925867, utilization=-1, estimation_time=3.6466064453125)
+Linear estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=2.310854911804199) estimate(latency=0.0027462704761904762, energy=0.26691493119079224, utilization=-1, estimation_time=2.30434250831604)
+Linear estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=2.3587193489074707) estimate(latency=0.0027462704761904762, energy=0.2709582555476132, utilization=-1, estimation_time=2.3464181423187256)
+Linear estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=4.312795162200928) estimate(latency=0.005742201904761905, energy=0.2708585133391217, utilization=-1, estimation_time=4.313116788864136)
+Linear estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=4.95052695274353) estimate(latency=0.005742201904761905, energy=0.3219267566189937, utilization=-1, estimation_time=4.944535255432129)
+Linear estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=2.2649521827697754) estimate(latency=0.0027462704761904762, energy=0.2775224868667392, utilization=-1, estimation_time=2.255980968475342)
+Linear estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=2.3096444606781006) estimate(latency=0.0027462704761904762, energy=0.3005452983468032, utilization=-1, estimation_time=2.3011903762817383)
+fused ~~ Linear estimate(latency=0.005742202857142857, energy=0.2603946110987797, utilization=-1, estimation_time=3.284522294998169) estimate(latency=0.005742202857142857, energy=0.2603946110987797, utilization=-1, estimation_time=3.2811667919158936)
+fused ~~ Linear estimate(latency=0.005742202857142857, energy=0.24993070885843768, utilization=-1, estimation_time=3.7950737476348877) estimate(latency=0.005742202857142857, energy=0.24993070885843768, utilization=-1, estimation_time=3.796191453933716)
+fused ~~ Linear estimate(latency=0.005742202857142857, energy=0.26888897823925867, utilization=-1, estimation_time=3.840918779373169) estimate(latency=0.005742202857142857, energy=0.26888897823925867, utilization=-1, estimation_time=3.8202335834503174)
+fused ~~ Linear estimate(latency=0.0027462714285714286, energy=0.26691493119079224, utilization=-1, estimation_time=2.50813889503479) estimate(latency=0.0027462714285714286, energy=0.26691493119079224, utilization=-1, estimation_time=2.502861261367798)
+fused ~~ Linear estimate(latency=0.0027462714285714286, energy=0.2709582555476132, utilization=-1, estimation_time=2.6428627967834473) estimate(latency=0.0027462714285714286, energy=0.2709582555476132, utilization=-1, estimation_time=2.6354076862335205)
+fused ~~ Linear estimate(latency=0.005742202857142857, energy=0.2708585133391217, utilization=-1, estimation_time=4.49675178527832) estimate(latency=0.005742202857142857, energy=0.2708585133391217, utilization=-1, estimation_time=4.493341684341431)
+fused ~~ Linear estimate(latency=0.005742202857142857, energy=0.3219267566189937, utilization=-1, estimation_time=6.207340717315674) estimate(latency=0.005742202857142857, energy=0.3219267566189937, utilization=-1, estimation_time=7.212730169296265)
+fused ~~ Linear estimate(latency=0.0027462714285714286, energy=0.2775224868667392, utilization=-1, estimation_time=2.520230531692505) estimate(latency=0.0027462714285714286, energy=0.2775224868667392, utilization=-1, estimation_time=2.512185573577881)
+fused ~~ Linear estimate(latency=0.0027462714285714286, energy=0.3005452983468032, utilization=-1, estimation_time=2.558528184890747) estimate(latency=0.0027462714285714286, energy=0.3005452983468032, utilization=-1, estimation_time=2.551412343978882)
+Mm estimate(latency=0.12982369523809523, energy=5.294041046216344, utilization=-1, estimation_time=14.159257411956787) estimate(latency=0.06391320380952381, energy=4.57856831618705, utilization=-1, estimation_time=13.490058422088623)
+Mm estimate(latency=0.12982369523809523, energy=5.294041046216344, utilization=-1, estimation_time=14.38111662864685) estimate(latency=0.06391320380952381, energy=4.557640511706365, utilization=-1, estimation_time=13.515443086624146)
+Mm estimate(latency=0.12982369523809523, energy=6.681461975734551, utilization=-1, estimation_time=12.713556289672852) estimate(latency=0.06391320380952381, energy=5.2770416918569945, utilization=-1, estimation_time=12.834888219833374)
+Mm estimate(latency=0.09586980571428572, energy=6.715493716235125, utilization=-1, estimation_time=10.45626187324524) estimate(latency=0.06391320380952381, energy=5.374125273275957, utilization=-1, estimation_time=10.450868844985962)
+Mm estimate(latency=0.09586980571428572, energy=7.800699415121888, utilization=-1, estimation_time=10.317284345626831) estimate(latency=0.06391320380952381, energy=5.9402712224303675, utilization=-1, estimation_time=10.327014923095703)
+Mm estimate(latency=0.12982369523809523, energy=5.335896655177712, utilization=-1, estimation_time=13.513110637664795) estimate(latency=0.06391320380952381, energy=4.620423925148418, utilization=-1, estimation_time=12.876632452011108)
+Mm estimate(latency=0.12982369523809523, energy=6.7648776366907715, utilization=-1, estimation_time=13.404536962509155) estimate(latency=0.06391320380952381, energy=5.40252817480011, utilization=-1, estimation_time=12.766920804977417)
+Mm estimate(latency=0.09586980571428572, energy=6.714595835068285, utilization=-1, estimation_time=11.169594287872314) estimate(latency=0.06391320380952381, energy=5.373227392109118, utilization=-1, estimation_time=11.160562753677368)
+Mm estimate(latency=0.09586980571428572, energy=7.799352593371628, utilization=-1, estimation_time=11.016911268234253) estimate(latency=0.06391320380952381, energy=5.938924400680108, utilization=-1, estimation_time=11.00163459777832)
+fused ~~ Mm estimate(latency=0.06391321333333333, energy=4.57856831618705, utilization=-1, estimation_time=12.657069444656372) estimate(latency=0.12982370476190477, energy=5.294041046216344, utilization=-1, estimation_time=13.306257247924805)
+fused ~~ Mm estimate(latency=0.06391321333333333, energy=4.557640511706365, utilization=-1, estimation_time=13.09529161453247) estimate(latency=0.12982370476190477, energy=5.294041046216344, utilization=-1, estimation_time=14.066353559494019)
+fused ~~ Mm estimate(latency=0.06391321333333333, energy=5.2770416918569945, utilization=-1, estimation_time=12.341336965560913) estimate(latency=0.12982370476190477, energy=6.681461975734551, utilization=-1, estimation_time=12.24118447303772)
+fused ~~ Mm estimate(latency=0.06391321333333333, energy=5.374125273275957, utilization=-1, estimation_time=10.209225177764893) estimate(latency=0.09586981523809524, energy=6.715493716235125, utilization=-1, estimation_time=10.231267213821411)
+fused ~~ Mm estimate(latency=0.06391321333333333, energy=5.9402712224303675, utilization=-1, estimation_time=10.030913591384888) estimate(latency=0.09586981523809524, energy=7.800699415121888, utilization=-1, estimation_time=10.023090600967407)
+fused ~~ Mm estimate(latency=0.06391321333333333, energy=4.620423925148418, utilization=-1, estimation_time=12.685493230819702) estimate(latency=0.12982370476190477, energy=5.335896655177712, utilization=-1, estimation_time=13.321590662002563)
+fused ~~ Mm estimate(latency=0.06391321333333333, energy=5.40252817480011, utilization=-1, estimation_time=12.727822065353394) estimate(latency=0.12982370476190477, energy=6.7648776366907715, utilization=-1, estimation_time=13.362616539001465)
+fused ~~ Mm estimate(latency=0.06391321333333333, energy=5.373227392109118, utilization=-1, estimation_time=11.086861610412598) estimate(latency=0.09586981523809524, energy=6.714595835068285, utilization=-1, estimation_time=11.091408729553223)
+fused ~~ Mm estimate(latency=0.06391321333333333, energy=5.938924400680108, utilization=-1, estimation_time=11.078794956207275) estimate(latency=0.09586981523809524, energy=7.799352593371628, utilization=-1, estimation_time=11.058328866958618)
+fused ~~ Linear estimate(latency=0.023483744761904762, energy=0.7379594987256218, utilization=-1, estimation_time=2.5657958984375) estimate(latency=0.023905038095238095, energy=0.7188655166104535, utilization=-1, estimation_time=2.424290418624878)
+fused ~~ Linear estimate(latency=0.023483744761904762, energy=0.7238986300901622, utilization=-1, estimation_time=2.3124096393585205) estimate(latency=0.023905038095238095, energy=0.7048046479749939, utilization=-1, estimation_time=2.3060882091522217)
+fused ~~ Linear estimate(latency=0.023483744761904762, energy=0.7119368360586446, utilization=-1, estimation_time=2.3115339279174805) estimate(latency=0.023905038095238095, energy=0.7070425784228249, utilization=-1, estimation_time=2.3069355487823486)
+fused ~~ Linear estimate(latency=0.021470853333333335, energy=0.7524019722023731, utilization=-1, estimation_time=2.3840763568878174) estimate(latency=0.0171954, energy=0.7011704631470326, utilization=-1, estimation_time=2.387382745742798)
+fused ~~ Linear estimate(latency=0.021470853333333335, energy=0.7333216748147179, utilization=-1, estimation_time=2.34536075592041) estimate(latency=0.0171954, energy=0.708504988776661, utilization=-1, estimation_time=2.352633476257324)
+fused ~~ Linear estimate(latency=0.023483744761904762, energy=0.766081235996541, utilization=-1, estimation_time=2.8305301666259766) estimate(latency=0.023905038095238095, energy=0.7751089911522918, utilization=-1, estimation_time=2.5801429748535156)
+fused ~~ Linear estimate(latency=0.020799889523809525, energy=0.9632111784354775, utilization=-1, estimation_time=3.298409938812256) estimate(latency=0.02122118285714286, energy=0.8417366338780529, utilization=-1, estimation_time=3.164924383163452)
+fused ~~ Linear estimate(latency=0.021470853333333335, energy=0.8664331957188035, utilization=-1, estimation_time=2.2435038089752197) estimate(latency=0.0171954, energy=0.7581860749052477, utilization=-1, estimation_time=2.2403910160064697)
+fused ~~ Linear estimate(latency=0.021470853333333335, energy=0.9718672073831873, utilization=-1, estimation_time=2.2390406131744385) estimate(latency=0.0171954, energy=0.8277777550608958, utilization=-1, estimation_time=2.232787847518921)
+Linear estimate(latency=0.023483733333333333, energy=0.7379594987256218, utilization=-1, estimation_time=2.534642219543457) estimate(latency=0.02390503619047619, energy=0.7188655166104535, utilization=-1, estimation_time=2.399035692214966)
+Linear estimate(latency=0.023483733333333333, energy=0.7238986300901622, utilization=-1, estimation_time=2.318809747695923) estimate(latency=0.02390503619047619, energy=0.7048046479749939, utilization=-1, estimation_time=2.3124167919158936)
+Linear estimate(latency=0.023483733333333333, energy=0.7119368360586446, utilization=-1, estimation_time=2.2990849018096924) estimate(latency=0.02390503619047619, energy=0.7070425784228249, utilization=-1, estimation_time=2.2912633419036865)
+Linear estimate(latency=0.021470841904761905, energy=0.7524019722023731, utilization=-1, estimation_time=2.308009624481201) estimate(latency=0.017195398095238096, energy=0.7011704631470326, utilization=-1, estimation_time=2.3110392093658447)
+Linear estimate(latency=0.021470841904761905, energy=0.7333216748147179, utilization=-1, estimation_time=2.2424583435058594) estimate(latency=0.017195398095238096, energy=0.708504988776661, utilization=-1, estimation_time=2.2500011920928955)
+Linear estimate(latency=0.023483733333333333, energy=0.766081235996541, utilization=-1, estimation_time=2.814635753631592) estimate(latency=0.02390503619047619, energy=0.7751089911522918, utilization=-1, estimation_time=2.5628955364227295)
+Linear estimate(latency=0.020799878095238096, energy=0.9632111784354775, utilization=-1, estimation_time=3.424062728881836) estimate(latency=0.02122118095238095, energy=0.8417366338780529, utilization=-1, estimation_time=3.394537925720215)
+Linear estimate(latency=0.021470841904761905, energy=0.8664331957188035, utilization=-1, estimation_time=2.2883083820343018) estimate(latency=0.017195398095238096, energy=0.7581860749052477, utilization=-1, estimation_time=2.28177809715271)
+Linear estimate(latency=0.021470841904761905, energy=0.9718672073831873, utilization=-1, estimation_time=2.3481829166412354) estimate(latency=0.017195398095238096, energy=0.8277777550608958, utilization=-1, estimation_time=2.3496477603912354)
+Linear estimate(latency=0.02390503619047619, energy=0.7188655166104535, utilization=-1, estimation_time=2.3913965225219727) estimate(latency=0.023483733333333333, energy=0.7379594987256218, utilization=-1, estimation_time=2.5106899738311768)
+Linear estimate(latency=0.02390503619047619, energy=0.7048046479749939, utilization=-1, estimation_time=2.2842764854431152) estimate(latency=0.023483733333333333, energy=0.7238986300901622, utilization=-1, estimation_time=2.2802653312683105)
+Linear estimate(latency=0.02390503619047619, energy=0.7070425784228249, utilization=-1, estimation_time=2.2767820358276367) estimate(latency=0.023483733333333333, energy=0.7119368360586446, utilization=-1, estimation_time=2.2706665992736816)
+Linear estimate(latency=0.017195398095238096, energy=0.7011704631470326, utilization=-1, estimation_time=2.2474708557128906) estimate(latency=0.021470841904761905, energy=0.7524019722023731, utilization=-1, estimation_time=2.231084108352661)
+Linear estimate(latency=0.017195398095238096, energy=0.708504988776661, utilization=-1, estimation_time=2.253955841064453) estimate(latency=0.021470841904761905, energy=0.7333216748147179, utilization=-1, estimation_time=2.2328524589538574)
+Linear estimate(latency=0.02390503619047619, energy=0.7751089911522918, utilization=-1, estimation_time=2.539137125015259) estimate(latency=0.023483733333333333, energy=0.766081235996541, utilization=-1, estimation_time=2.777407646179199)
+Linear estimate(latency=0.02122118095238095, energy=0.8417366338780529, utilization=-1, estimation_time=3.2449920177459717) estimate(latency=0.020799878095238096, energy=0.9632111784354775, utilization=-1, estimation_time=3.3688435554504395)
+Linear estimate(latency=0.017195398095238096, energy=0.7581860749052477, utilization=-1, estimation_time=2.240703821182251) estimate(latency=0.021470841904761905, energy=0.8664331957188035, utilization=-1, estimation_time=2.2324554920196533)
+Linear estimate(latency=0.017195398095238096, energy=0.8277777550608958, utilization=-1, estimation_time=2.250481367111206) estimate(latency=0.021470841904761905, energy=0.9718672073831873, utilization=-1, estimation_time=2.239448070526123)
+Linear estimate(latency=0.06826666666666667, energy=2.0789014212704666, utilization=-1, estimation_time=4.271758556365967) estimate(latency=0.0699674819047619, energy=2.0818877164158978, utilization=-1, estimation_time=4.259877681732178)
+Linear estimate(latency=0.06826666666666667, energy=1.9971521850177945, utilization=-1, estimation_time=5.382853984832764) estimate(latency=0.0699674819047619, energy=2.030410071761486, utilization=-1, estimation_time=6.3879101276397705)
+Linear estimate(latency=0.06826666666666667, energy=2.0546937641921086, utilization=-1, estimation_time=4.331597805023193) estimate(latency=0.0699674819047619, energy=2.0722583459295394, utilization=-1, estimation_time=4.325520277023315)
+Linear estimate(latency=0.06241523809523809, energy=2.1727606224177727, utilization=-1, estimation_time=4.460310935974121) estimate(latency=0.05046272, energy=2.056020572837511, utilization=-1, estimation_time=4.349987268447876)
+Linear estimate(latency=0.06241523809523809, energy=2.086301228667175, utilization=-1, estimation_time=4.645108222961426) estimate(latency=0.05046272, energy=2.0291246135915313, utilization=-1, estimation_time=4.533447027206421)
+Linear estimate(latency=0.06826666666666667, energy=2.205610927141781, utilization=-1, estimation_time=4.468938112258911) estimate(latency=0.0699674819047619, energy=2.2453861889212416, utilization=-1, estimation_time=4.344003677368164)
+Linear estimate(latency=0.0604647619047619, energy=2.7851424338922044, utilization=-1, estimation_time=5.1144797801971436) estimate(latency=0.06216557714285714, energy=2.463809038987297, utilization=-1, estimation_time=5.103698015213013)
+Linear estimate(latency=0.06241523809523809, energy=2.504246737291117, utilization=-1, estimation_time=4.758131265640259) estimate(latency=0.05046272, energy=2.221763630274183, utilization=-1, estimation_time=4.6429362297058105)
+Linear estimate(latency=0.06241523809523809, energy=2.779747544273191, utilization=-1, estimation_time=4.570872783660889) estimate(latency=0.05046272, energy=2.3758477713945396, utilization=-1, estimation_time=4.454473972320557)
+Estimating for layer_id -1
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.00018315582830310398, utilization=-1, estimation_time=2.762057304382324) estimate(latency=4.022857142857143e-06, energy=0.00022778292655909995, utilization=-1, estimation_time=2.7538909912109375)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.000183392803382528, utilization=-1, estimation_time=2.821261405944824) estimate(latency=4.144761904761905e-06, energy=0.00022801990163852395, utilization=-1, estimation_time=2.8131823539733887)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.000227196573893376, utilization=-1, estimation_time=2.7422127723693848) estimate(latency=4.388571428571429e-06, energy=0.00031381032958937194, utilization=-1, estimation_time=2.734895944595337)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.00022994273858790401, utilization=-1, estimation_time=2.663440227508545) estimate(latency=4.022857142857143e-06, energy=0.00031980873119725144, utilization=-1, estimation_time=2.662268877029419)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.000264123768182528, utilization=-1, estimation_time=2.5497639179229736) estimate(latency=4.144761904761905e-06, energy=0.0003866846339118755, utilization=-1, estimation_time=2.5434787273406982)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.000183037340763392, utilization=-1, estimation_time=2.556767463684082) estimate(latency=3.9619047619047616e-06, energy=0.00022766443901938794, utilization=-1, estimation_time=2.547992467880249)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.00022636716111539202, utilization=-1, estimation_time=2.3898308277130127) estimate(latency=3.9619047619047616e-06, energy=0.0003129809168113879, utilization=-1, estimation_time=2.3812315464019775)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.000229722618638592, utilization=-1, estimation_time=2.2757911682128906) estimate(latency=3.9619047619047616e-06, energy=0.00031958861124793946, utilization=-1, estimation_time=2.2682175636291504)
+fused ~~ Mm estimate(latency=3.900952380952381e-06, energy=0.00026346340833459196, utilization=-1, estimation_time=2.370115280151367) estimate(latency=3.9619047619047616e-06, energy=0.0003860242740639395, utilization=-1, estimation_time=2.3624556064605713)
+Populated estimates for model:  llama2  ...
+Extracted graph and populated for all the models ...
+running solver for model: llama2 with accelerator config: acc_config(num_tc=4, num_vc=2, width=256, depth=256, width_vc=256, GLB_Buffer=268435456, area=555555059.90432)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=268435456, area=401015327.679264)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=8, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=134217728, area=278826676.31216)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=2, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=134217728, area=278518529.95216)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=134217728, area=227074327.679264)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=128, depth=128, width_vc=128, GLB_Buffer=134217728, area=188427588.951408)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=4, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=98558244.03926401)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=2, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=72760077.902816)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=59755488.951408)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+All architectures explored
+[91mNo config found in the whole search space[0m
+Best phaze config for mbs:  8  HBM:  80  Activation Recomp:  False 
+ Config  (None, None) 
+ Models ['llama2'] 
+ total solving time, ilptime and dptime 721.3959696292877 52.16135382652283 10.543262004852295 
+ estimation time 1718.7495574951172
+mbs:  8  HBM size: 80 activation_recomputation: True
+Extracting graph for model:  llama2  ...
+Object file not available to load. Extracting the model again. /storage/ice1/8/4/madain3/hml/phaze_hml_spring26/GraphExtractor/utils/../out/Llama/llama2_mbs_8_sl_4096.pickle
+Loaded model from file
+'[93mModel load from file failed due to check 1. Exporting again.[0m
+Loaded phaze graph successfully from file for model llama2
+[96mExtending number of layers (only) in the graph to 32 for model llama2 [0m
+Extracted graph for model:  llama2  ...
+Initialized accelerator directories and files for area and energy estimation!
+Populated estimates for model:  llama2  ...
+Extracted graph and populated for all the models ...
+running solver for model: llama2 with accelerator config: acc_config(num_tc=4, num_vc=2, width=256, depth=256, width_vc=256, GLB_Buffer=268435456, area=555555059.90432)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=268435456, area=401015327.679264)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=8, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=134217728, area=278826676.31216)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=2, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=134217728, area=278518529.95216)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=256, depth=256, width_vc=256, GLB_Buffer=134217728, area=227074327.679264)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=128, depth=128, width_vc=128, GLB_Buffer=134217728, area=188427588.951408)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=4, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=98558244.03926401)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=2, num_vc=2, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=72760077.902816)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+running solver for model: llama2 with accelerator config: acc_config(num_tc=1, num_vc=1, width=128, depth=128, width_vc=128, GLB_Buffer=33554432, area=59755488.951408)
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+Set parameter LogToConsole to value 0
+All architectures explored
+[91mNo config found in the whole search space[0m
+Best phaze config for mbs:  8  HBM:  80  Activation Recomp:  True 
+ Config  (None, None) 
+ Models ['llama2'] 
+ total solving time, ilptime and dptime 64.09924459457397 52.205018043518066 11.045321702957153 
+ estimation time 1718.7495574951172
