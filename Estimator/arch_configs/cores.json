@@ -1,0 +1,9 @@
+[{"num_tc": 2, "num_vc": 2, "width": 128, "depth": 128, "width_vc": 128, "GLB_Buffer": 33554432, "area": 72760077.902816},
+{"num_tc": 4, "num_vc": 2, "width": 128, "depth": 128, "width_vc": 128, "GLB_Buffer": 33554432, "area": 98558244.03926401},
+{"num_tc": 8, "num_vc": 2, "width": 128, "depth": 128, "width_vc": 128, "GLB_Buffer": 134217728, "area": 278826676.31216},
+{"num_tc": 2, "num_vc": 1, "width": 256, "depth": 256, "width_vc": 256, "GLB_Buffer": 134217728, "area": 278518529.95216},
+{"num_tc": 4, "num_vc": 2, "width": 256, "depth": 256, "width_vc": 256, "GLB_Buffer": 268435456, "area": 555555059.90432},
+{"num_tc": 1, "num_vc": 1, "width": 128, "depth": 128, "width_vc": 128, "GLB_Buffer": 33554432, "area": 59755488.951408},
+{"num_tc": 1, "num_vc": 1, "width": 128, "depth": 128, "width_vc": 128, "GLB_Buffer": 134217728, "area": 188427588.951408},
+{"num_tc": 1, "num_vc": 1, "width": 256, "depth": 256, "width_vc": 256, "GLB_Buffer": 134217728, "area": 227074327.679264},
+{"num_tc": 1, "num_vc": 1, "width": 256, "depth": 256, "width_vc": 256, "GLB_Buffer": 268435456, "area": 401015327.679264}]

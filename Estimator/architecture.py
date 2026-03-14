@@ -26,14 +26,42 @@ per_core_config = namedtuple(
 acc_config = namedtuple(
     "acc_config", ["num_tc", "num_vc", "width", "depth", "width_vc", "GLB_Buffer", "area"])
 
+# actual tpu specs
+tpu_v2_config = acc_config(2, 2, 128, 128, 128, 32*1024*1024, -1)
+tpu_v3_config = acc_config(4, 2, 128, 128, 128, 32*1024*1024, -1)
+tpu_v4_config = acc_config(8, 2, 128, 128, 128, 128*1024*1024, -1)
+tpu_v6_config = acc_config(2, 1, 256, 256, 256, 128*1024*1024, -1)
+tpu_v7_config = acc_config(4, 2, 256, 256, 256, 256*1024*1024, -1)
+
+# fabricated single core specs
+tpu_v3_single_core_config = acc_config(1, 1, 128, 128, 128, 32*1024*1024, -1)
+tpu_v4_single_core_config = acc_config(1, 1, 128, 128, 128, 128*1024*1024, -1)
+tpu_v6_single_core_config = acc_config(1, 1, 256, 256, 256, 128*1024*1024, -1)
+tpu_v7_single_core_config = acc_config(1, 1, 256, 256, 256, 256*1024*1024, -1)
+
+
+all_tpu_configs_hml = [
+    tpu_v2_config, 
+    tpu_v3_config, 
+    tpu_v4_config, 
+    tpu_v6_config, 
+    tpu_v7_config,
+    tpu_v3_single_core_config,
+    tpu_v4_single_core_config,
+    tpu_v6_single_core_config,
+    tpu_v7_single_core_config
+]
+
+
 # The maximum accelerator config might not be able to fit the max of each of the above aspects of the core 
 # HML - Hint: look here: what is the search space now? 
 max_acc_config_per_dim = acc_config(
-    4096, 4096, 256, 256, 256, 128*1024*1024, -1)
+    4096, 4096, 256, 256, 256, 160*1024*1024, -1)
 
 # HML - Hint: look here: what is the search space now? 
 # maximum accelerator config for area constraint
-max_acc_config = acc_config(8, 2, 128, 128, 128, 128*1024*1024,  -1)
+# max_acc_config = acc_config(8, 2, 128, 128, 128, 128*1024*1024,  -1)
+max_acc_config = acc_config(8, 2, 256, 256, 256, 160*1024*1024,  -1)
 area_constraint = -1
 
 # potential accelerator configs to explore
@@ -89,7 +117,8 @@ def generate_all_cores_to_explore():
     # HML Hint: How are we filtering out accelertors configs outside of the search space?
     # How do we expand it? 
     def check_if_acc_to_explore(config):
-        area_factor = 0.0 if config.num_tc == 1 or config.num_vc == 1 else 0.3
+        # area_factor = 0.0 if config.num_tc == 1 or config.num_vc == 1 else 0.3
+        area_factor = 0.0 if config.num_tc == 1 or config.num_vc == 1 else 0.1
         config = config._replace(area=generate_area_of_acc(config))
 
         max_area = get_area_constraint()
@@ -107,14 +136,20 @@ def generate_all_cores_to_explore():
 
     # restricting the total number of possibilites by making the TC and VC core width the same
 
-    for log_x in range(max_log_cores, -1, -1):
-        for log_y in range(max_log_cores, -1, -1):
-            for log_w in range(max_log_width, 0, -1):
-                for log_d in range(max_log_depth, 0, -1):
-                    for log_glb in range(max_log_GLB_buffer, 0, -1):
-                        config = acc_config(2**log_x, 2**log_y,
-                                            2**log_w, 2**log_d, 2**log_w, (2**log_glb)*1024*1024, -1)
-                        check_if_acc_to_explore(config)
+    # acc_config = namedtuple(
+    # "acc_config", ["num_tc", "num_vc", "width", "depth", "width_vc", "GLB_Buffer", "area"])
+
+    # for log_x in range(max_log_cores, -1, -1):
+    #     for log_y in range(max_log_cores, -1, -1):
+    #         for log_w in range(max_log_width, 0, -1):
+    #             for log_d in range(max_log_depth, 0, -1):
+    #                 for log_glb in range(max_log_GLB_buffer, 0, -1):
+    #                     config = acc_config(2**log_x, 2**log_y,
+    #                                         2**log_w, 2**log_d, 2**log_w, (2**log_glb)*1024*1024, -1)
+    #                     check_if_acc_to_explore(config)
+
+    for config in all_tpu_configs_hml:
+        check_if_acc_to_explore(config)
 
 def generate_unique_core_configs():
     global tc_configs
